@@ -1,0 +1,23 @@
+
+
+# Perl Module Edit Helper
+
+## Commands
+
+    com! -narg=1 ModuleTabEdit    :cal s:ModuleEdit(<q-args>, 'tabe' )
+    com! -narg=1 ModuleSplitEdit  :cal s:ModuleEdit(<q-args>, 'split')
+    com! -narg=1 ModuleVSplitEdit :cal s:ModuleEdit(<q-args> , 'vsplit')
+
+## Command abbreations
+
+    cabbr ME ModuleTabEdit
+    cabbr MTE ModuleTabEdit
+    cabbr MSE ModuleSplitEdit
+    cabbr MVSE ModuleVSplitEdit
+
+## Usage
+
+    :ME Plack
+    :ModuleEdit Plack
+
+
